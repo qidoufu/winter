@@ -1,0 +1,545 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+@media screen and (min-width:768px) {
+    html {
+        width: 50rem;
+        margin: 0 auto;
+    }
+}
+
+.all {
+    background-image: url(img/bodybg.png);
+    background-size: cover;
+}
+
+.top {
+    width: 100%;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0.9rem;
+    background-position: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logobox {
+    width: 100%;
+    height: 2.18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 1.95rem;
+    height: 1.56rem;
+}
+
+.fu_title {
+    margin-top: 0.15rem
+}
+
+.title {
+    text-align: center;
+    color: #242424;
+    font-size: 0.36rem;
+}
+
+.title span {
+    color: #f0efef;
+}
+
+.dec {
+    padding: 0.24rem 0.44rem;
+}
+
+.dec p {
+    font-size: 0.18rem;
+    color: #120601;
+    text-indent: 2em;
+    letter-spacing: 0.01rem;
+    font-family: "FZBaoSong-Z...";
+    line-height: 0.36rem;
+}
+
+.medic {
+    width: 100%;
+    height: 2.96rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -1.4rem;
+    z-index: 5;
+}
+
+.medic img {
+    height: 2.96rem;
+}
+
+.page2 {
+    width: 100%;
+    background-image: url(img/bg2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.page2_top {
+    height: 1.54rem;
+    padding-left: 0.53rem;
+    padding-top: 0.18rem;
+    padding-bottom: 0.2rem;
+}
+
+.page2_dec {
+    padding: 0rem 0.44rem 0.2rem 0.44rem!important;
+}
+
+.page2_dec p {
+    color: #53453c;
+}
+
+.histry {
+    height: 1.54rem;
+}
+
+.page3_top {
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.page3_top img {
+    height: 0.4rem;
+}
+
+.page3_bottom {
+    padding-top: 0.1rem;
+}
+
+.page3_left {
+    flex: 1;
+}
+
+.page3_right {
+    flex: 1;
+}
+
+.page3_dec {
+    padding: 0.1rem 0.4rem 0rem 0.44rem!important;
+}
+
+.page4 {
+    width: 100%;
+    background-image: url(img/bg4.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 0.5rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.lead {
+    font-size: 0.18rem!important;
+    color: #2d2520!important;
+}
+
+.fu_leader {
+    font-size: 0.16rem!important;
+    color: #2d2520!important;
+}
+
+.xiu {
+    margin-bottom: 0.2rem;
+    margin-top: 0.05rem;
+}
+
+.xiuer {
+    margin-bottom: 0.05rem;
+}
+
+.page4_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page5 {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.page5_dec {
+    margin-top: -0.5rem;
+    background-color: #e6e0de;
+    margin: 0rem 0.44rem;
+    position: relative;
+}
+
+.page5_top img {
+    width: 100%;
+}
+
+.page5_dec p {
+    letter-spacing: 0.02rem;
+    line-height: 0.3rem;
+    padding: 0!important;
+}
+
+.page5_bottom {
+    height: 0.3rem;
+}
+
+.page5_bottom img {
+    height: 0.3rem;
+}
+
+.shashow {
+    position: absolute;
+    bottom: -0.2rem;
+}
+
+.page6_top img {
+    width: 100%;
+}
+
+.page6_dec {
+    padding: 0rem 0.44rem;
+    line-height: 0.3rem;
+}
+
+.page6_img {
+    width: 100%;
+    text-align: center;
+}
+
+.page6_img img {
+    width: 95%;
+}
+
+.page7_tenter {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text p {
+    text-indent: 0em!important;
+}
+
+.page7_tenter img {
+    width: 33%;
+    height: 3.59rem;
+}
+
+.page7_tu1 {
+    width: 40%!important;
+    height: 4.19rem;
+}
+
+.page7_tu2 {
+    width: 58%!important;
+    height: 4.19rem;
+}
+
+.page8_img {
+    width: 70%!important;
+}
+
+.page9_top {
+    margin: 0px 0.44rem;
+}
+
+.page9_left {
+    flex: 1.5;
+}
+
+.page9_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.page9_rt {
+    /* width: 100%;
+    height: 0.37rem;
+    display: flex;
+    align-items: center;
+    background-image: url("img/title2.png");
+    background-size: cover;
+    background-position-x: 1.6rem; */
+}
+
+.page9_dec {
+    line-height: 0.3rem;
+}
+
+.page9_img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page9_img img {
+    width: 100%;
+    margin-left: 0.2rem;
+}
+
+.page9_left img {
+    width: 100%;
+}
+
+.page9_tu1 {
+    width: 28%;
+    height: 1.58rem;
+}
+
+.page9_tu2 {
+    width: 38%;
+    height: 1.58rem;
+}
+
+.page9_bottom {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.page9_end {
+    display: flex;
+    justify-content: center;
+    margin: 0.3rem 0rem;
+}
+
+.page9_end img {
+    width: 0.89rem;
+    height: 0.9rem;
+    position: relative;
+    top: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.textbox p {
+    font-size: 0.16rem;
+    color: #63442d;
+    line-height: 0.15rem;
+    position: relative;
+    top: 0.1rem;
+}
+
+.page10_imgbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.1rem 0rem;
+}
+
+.page10_imgbox img {
+    width: 16%;
+    height: 0.86rem;
+    margin-bottom: 0.1rem;
+}
+
+.page10_dec {
+    padding: 0rem 0.44rem;
+}
+
+.page10_dec p {
+    letter-spacing: 0.09rem!important;
+    font-size: 0.193rem;
+    color: #3e3733;
+}
+
+.bigtitle {
+    font-size: 0.298rem;
+    color: #63442d;
+}
+
+.page11_center {
+    font-size: 0px;
+    letter-spacing: -0.04rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.page11_tu1 {
+    width: 40%!important;
+    height: 5.88rem;
+}
+
+.page11_tu2 {
+    width: 59%!important;
+    height: 5.88rem;
+}
+
+.page11_tu3 {
+    margin-right: 2%;
+    width: 49%!important;
+    height: auto!important;
+    display: inline-block;
+    margin-bottom: 0.1rem;
+}
+
+.page11_tu3:last-child {
+    margin-right: 0px!important;
+}
+
+.page12 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+.page12 p {
+    font-size: 0.26rem;
+    color: #63442d;
+    /* line-height: 0.05rem; */
+    letter-spacing: 0.04rem;
+    text-align: center;
+}
+
+.page12 img {
+    width: 2.3rem;
+    height: 2.5rem;
+}
+
+.page13 {
+    width: 100%;
+    background-image: url(img/bg13_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.page13_bottom {
+    width: 100%;
+    background-image: url(img/bg13_2.png);
+    background-size: 100%;
+    margin-top: -4.3rem;
+    background-position-y: 0.69rem;
+}
+
+.page12_imgbox {
+    width: 100%;
+    text-align: center;
+}
+
+.page14 {
+    width: 100%;
+}
+
+.page14 img {
+    width: 100%;
+}
+
+.cong {
+    width: 100%;
+}
+
+.page15 {
+    width: 100%;
+    background-image: url(img/bg15.png);
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.25rem;
+}
+
+.page15 img {
+    width: 2.73rem;
+    height: 2.87rem;
+    margin-top: 0.2rem;
+}
+
+.page15_title {
+    font-size: 0.318rem;
+    color: #63442d;
+}
+
+.page15_futitle {
+    font-size: 0.328rem;
+    color: #ff0c06;
+    margin: 0.05rem;
+}
+
+.page15_text {
+    font-size: 0.23rem;
+    color: #63442d;
+    margin-top: 0.2rem;
+}
+
+.page15_wenben {
+    font-size: 0.23rem;
+    color: #ff0c06;
+    margin-top: -0.15rem;
+}
+
+.page16 {
+    width: 100%;
+    background-image: url(img/bg16.png);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.page16_p {
+    font-size: 0.306rem;
+    color: #db2e1b;
+}
+
+.bottom {
+    width: 100%;
+    height: 2.62rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3bbb6;
+    margin-top: 0.21rem;
+    flex-direction: column;
+}
+
+.ma {
+    width: 2.73rem;
+    height: 2.87rem;
+}
+
+.bottom p {
+    font-size: 0.2rem;
+    color: #db2e1b;
+    line-height: 0;
+    font-family: "FZBaoSong-Z...";
+}
+
+.te {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 11;
+    padding: 0rem!important;
+}
+
+.weixin {
+    width: 1.42rem;
+    height: 1.42rem;
+}
